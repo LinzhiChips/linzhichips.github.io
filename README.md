@@ -1,1 +1,6 @@
-These are the static github pages for Linzhi.
+Linzhi Ltd. is a fabless semiconductor company in Shenzhen,
+focusing on crypto ASICs.
+
+Linzhi Working Papers
+
+LWP1 About Linzhi.
