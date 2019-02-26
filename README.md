@@ -1,7 +1,6 @@
 Linzhi Ltd. is a fabless semiconductor company in Shenzhen,
 focusing on crypto ASICs.
 
-Linzhi Working Papers
+<h3>Linzhi Working Papers</h3>
 
-LWP1 About Linzhi.
-<a href="https://linzhi.io">link</a>
+<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/LWP/LWP1-About-Linzhi.pdf">LWP1 About Linzhi.</a>
