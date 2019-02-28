@@ -8,14 +8,12 @@ For history, see <a href="https://en.wikipedia.org/wiki/Linzhi_Ltd">Linzhi Ltd</
 <a href="https://twitter.com/LinzhiCorp">Twitter</a>,
 <a href="https://instagram.com/LinzhiCorp">Instagram</a>,
 <a href="https://github.com/LinzhiChips">Github</a>,
-Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a>
+Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
+Shop: Coming Soon
 
 <h3>Ethash Miner Announcement, September 2018</h3>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
 Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
-
-<h3>Shop</h3>
--coming soon-
 
 <h3>Linzhi Working Papers</h3>
 Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC design workflow.<br/>
