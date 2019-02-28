@@ -7,7 +7,8 @@ For history, see <a href="https://en.wikipedia.org/wiki/Linzhi_Ltd">Linzhi Ltd</
 <a href="https://t.me/LinzhiCorp">Telegram</a>,
 <a href="https://twitter.com/LinzhiCorp">Twitter</a>,
 <a href="https://instagram.com/LinzhiCorp">Instagram</a>,
-<a href="https://github.com/LinzhiChips">Github</a>
+<a href="https://github.com/LinzhiChips">Github</a>,
+Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a>
 
 <h3>Ethash Miner Announcement, September 2018</h3>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
