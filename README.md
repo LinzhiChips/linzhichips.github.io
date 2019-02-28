@@ -8,6 +8,7 @@ For history, see <a href="https://en.wikipedia.org/wiki/Linzhi_Ltd">Linzhi Ltd</
 <a href="https://twitter.com/LinzhiCorp">Twitter</a>,
 <a href="https://instagram.com/LinzhiCorp">Instagram</a>,
 <a href="https://github.com/LinzhiChips">Github</a>,
+<a href="https://medium.com/@Linzhi">Medium</a>,
 Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 Shop: Coming Soon
 
