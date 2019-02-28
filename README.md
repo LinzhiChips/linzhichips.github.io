@@ -1,7 +1,7 @@
 <h3>About Linzhi</h3>
-Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.
-We are a self-funded startup with about 10 people, focusing on crypto ASICs.
-For history, see <a href="https://en.wikipedia.org/wiki/Linzhi_Ltd">Linzhi Ltd</a>.
+Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.<br/>
+We are a self-funded startup with about 10 people, focusing on crypto ASICs.<br/>
+For history, see <a href="https://en.wikipedia.org/wiki/Linzhi_Ltd">Linzhi Ltd</a> on Wikipedia.
 
 <h3>Contact</h3>
 <a href="https://t.me/LinzhiCorp">Telegram</a>,
