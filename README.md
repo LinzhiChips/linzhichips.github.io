@@ -32,8 +32,8 @@ Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC 
 <ul>
  <li>Memory Bandwidth</li>
  <li>Economic Finality</li>
- <li>Is usefulness an attack vector?<li>
- <li>General-purpose crypto accelerator architecture<li>
+ <li>Is usefulness an attack vector?</li>
+ <li>General-purpose crypto accelerator architecture</li>
  <li>Recycling</li>
  <li>Proof-of-Contribution</li>
  <li>Ops for eliptic curves, finite fields, prime fields</li>
@@ -41,7 +41,7 @@ Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC 
  <li>PoW Change Process</li>
  <li>Supply-Demand Curve for Security Fees, Tragedy of the Common Chain</li>
  <li>Physical vs Logical Decentralization</li>
-<ul>
+</ul>
 
 <h3>Presentations</h3>
 <ul>
