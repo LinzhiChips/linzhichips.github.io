@@ -13,7 +13,7 @@ For history, see <a href="https://en.wikipedia.org/wiki/Linzhi_Ltd">Linzhi Ltd</
 Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 Shop: Coming Soon
 
-<h3>Ethash Miner Announcement, September 2018</h3>
+<h3>Ethash Miner Announcement, ETC Summit Seoul, September 2018</h3>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
 Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 
@@ -27,3 +27,17 @@ Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC 
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">LWP3 Achieving Mining Dominance. How cost advantage drives centralization.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">LWP2 Call to Ethereum Developers for ASIC Guidelines.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">LWP1 About Linzhi.</a><br/>
+
+<h3>Presentations</h3>
+<ul>
+<li>2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea
+  <a href="https://etcsummit.com/2018-etc-summit/">Event</a>,
+  <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20180913-ETC-Summit-ASIC-Manufacturer-Perspective.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>
+</li>
+<li>Scaling Bitcoin 2017 “Scaling the Edge” - November 4-5, 2017 - Stanford, USA
+  <a href="https://stanford2017.scalingbitcoin.org/">Event</a>, 
+  <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20171104-Stanford-Future-of-Proof-of-Work.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
+</li>
+</ul>
