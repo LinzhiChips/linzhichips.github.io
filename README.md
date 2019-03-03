@@ -29,6 +29,7 @@ Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC 
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">LWP1 About Linzhi.</a><br/>
 
 <h3>Research Interests</h3>
+Please contact us if any of this interests you as well and you want to cowork:
 <ul>
  <li>Memory Bandwidth</li>
  <li>Economic Finality</li>
@@ -41,6 +42,8 @@ Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC 
  <li>PoW Change Process</li>
  <li>Supply-Demand Curve for Security Fees, Tragedy of the Common Chain</li>
  <li>Physical vs Logical Decentralization</li>
+ <li>Unique PoW algo vs Shared Hardware</li>
+ <li>libsecp256k1 integration</li>
 </ul>
 
 <h3>Presentations</h3>
