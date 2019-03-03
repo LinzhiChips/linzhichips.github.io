@@ -45,6 +45,7 @@ Please contact us if any of this interests you as well and you want to cowork:
  <li>Supply-Demand Curve for Security Fees, Tragedy of the Common Chain</li>
  <li>Physical vs Logical Decentralization</li>
  <li>Unique PoW algo vs Shared Hardware</li>
+ <li>Computer Rights</li>
 </ul>
 
 <h3>Presentations</h3>
