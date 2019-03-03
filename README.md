@@ -32,18 +32,19 @@ Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC 
 Please contact us if any of this interests you as well and you want to cowork:
 <ul>
  <li>Memory Bandwidth</li>
- <li>Economic Finality</li>
- <li>Is usefulness an attack vector?</li>
  <li>General-purpose crypto accelerator architecture</li>
- <li>Recycling</li>
- <li>Proof-of-Contribution</li>
  <li>Ops for eliptic curves, finite fields, prime fields</li>
+ <li>libsecp256k1 integration</li>
  <li>In-Protocol Rewards</li>
  <li>PoW Change Process</li>
+ <li>Open Compute Project</li>
+ <li>Recycling</li>
+ <li>Economic Finality</li>
+ <li>Proof-of-Contribution</li>
+ <li>Is usefulness an attack vector?</li>
  <li>Supply-Demand Curve for Security Fees, Tragedy of the Common Chain</li>
  <li>Physical vs Logical Decentralization</li>
  <li>Unique PoW algo vs Shared Hardware</li>
- <li>libsecp256k1 integration</li>
 </ul>
 
 <h3>Presentations</h3>
