@@ -13,7 +13,7 @@ Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 Shop: Coming Soon
 
 <h3>News</h3>
-<b>Ethash Miner Announcement, ETC Summit Seoul, September 2018</b><br/>
+<b>2018-Sep-13: Ethash Miner Announcement, ETC Summit, Seoul</b><br/>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
 Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 
