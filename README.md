@@ -12,7 +12,8 @@ We are a self-funded startup with about 10 people, focusing on crypto ASICs.
 Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 Shop: Coming Soon
 
-<h3>Ethash Miner Announcement, ETC Summit Seoul, September 2018</h3>
+<h3>News</h3>
+<b>Ethash Miner Announcement, ETC Summit Seoul, September 2018</b><br/>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
 Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 
