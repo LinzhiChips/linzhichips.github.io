@@ -13,7 +13,9 @@ Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 Shop: Coming Soon
 
 <h3>News</h3>
-<b>2019-Sep-11:</b><br/>
+<b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
+<a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out our 1400 MH Ethash ASIC</a><br/>
+More info in LinzhiCorp on <a href="https://t.me/LinzhiCorp">Telegram</a><br/>
 <br/>
 <b>2018-Sep-13: Ethash Miner Announcement, ETC Summit, Seoul</b><br/>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
@@ -22,6 +24,7 @@ Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 <h3>Linzhi Working Papers</h3>
 Ideas for future papers: Proof-of-Work Glossary, conference presentations, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
 <br/>
+<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP11-E1400-Tapeout-Announcement.pdf">LWP11 Linzhi E1400 Ethash ASIC Tapeout.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP10-Random-Logic-Design.pdf">LWP10 EIP 1057 (ProgPoW): Open Chip Design for 1% cost/power increase.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP9-ASIC-Feasibility-5-Steps.pdf">LWP9 ASIC Feasibility Study in 5 Steps.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP8-ECIP-1043-Revisited.pdf">LWP8 ECIP 1043 (Ethash 1GB DAG) Revisited.</a><br/>
