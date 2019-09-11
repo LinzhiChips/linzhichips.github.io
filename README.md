@@ -14,8 +14,7 @@ Shop: Coming Soon
 
 <h3>News</h3>
 <b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
-<a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out our 1400 MH Ethash ASIC</a><br/>
-More info in LinzhiCorp on <a href="https://t.me/LinzhiCorp">Telegram</a><br/>
+<a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out our 1400 MH Ethash ASIC</a> - more in LinzhiCorp on <a href="https://t.me/LinzhiCorp">Telegram</a><br/>
 <br/>
 <b>2018-Sep-13: Ethash Miner Announcement, ETC Summit, Seoul</b><br/>
 Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
