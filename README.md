@@ -23,6 +23,7 @@ Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 <h3>Linzhi Working Papers</h3>
 Ideas for future papers: Proof-of-Work Glossary, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
 <br/>
+<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP14-On-Whistleblowing.pdf">LWP14 On Whistleblowing.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">LWP13 ASICs: A Manufacturer's Perspective.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP12-Future-Proof-of-Work.pdf">LWP12 The Future of Proof-of-Work.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP11-E1400-Tapeout-Announcement.pdf">LWP11 Linzhi E1400 Ethash ASIC Tapeout.</a><br/>
