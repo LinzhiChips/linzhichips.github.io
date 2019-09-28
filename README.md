@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-linzhi-sign.jpg" style="width:50%;">
+
 <h3>About Linzhi</h3>
 Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.<br/>
 We are a self-funded startup with about 10 people, focusing on crypto ASICs.
