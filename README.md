@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-linzhi-sign.jpg" style="width:50%;">
+<center><img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-linzhi-sign-narrow.jpg" style="width:50%;"></center>
 
 <h3>About Linzhi</h3>
 Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.<br/>
