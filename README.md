@@ -61,6 +61,7 @@ placeholder: <a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> 
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">LWP3 Achieving Mining Dominance. How cost advantage drives centralization.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">LWP2 Call to Ethereum Developers for ASIC Guidelines.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">LWP1 About Linzhi.</a><br/>
-<br/>
-Bye.<br/>
+
 <center><img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-lunchtime.jpg" style="width:60%;"></center>
+Bye.<br/>
+
