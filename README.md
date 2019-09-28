@@ -15,12 +15,12 @@ Shop: Coming Soon
 <h3>News</h3>
 <ul>
 <li>placeholder: <b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
-  Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada</br>
+  Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
   <a href="https://etcsummit.com/">Event</a>
 </li>
 <li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
-  <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a><br/>
-  <a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>
+  <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a> (
+  <a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
 </li>
 <li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
   Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
