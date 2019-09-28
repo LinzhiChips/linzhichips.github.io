@@ -23,6 +23,7 @@ Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 <h3>Linzhi Working Papers</h3>
 Ideas for future papers: Proof-of-Work Glossary, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
 <br/>
+<a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> (2019 Conference Presentation)<br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">LWP15 EIP 1057: Posts Against ProgPoW - May-Sep 2019.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP14-On-Whistleblowing.pdf">LWP14 On Whistleblowing.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">LWP13 ASICs: A Manufacturer's Perspective.</a> (2018 Conference Presentation)<br/>
