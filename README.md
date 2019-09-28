@@ -42,6 +42,7 @@ Ideas for future papers: PoW Glossary, PoW Change State Machine, What is memory-
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">LWP13 ASICs: A Manufacturer's Perspective.</a> (2018 Conference Presentation)<br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP12-Future-Proof-of-Work.pdf">LWP12 The Future of Proof-of-Work.</a> (2017 Conference Presentation)<br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP11-E1400-Tapeout-Announcement.pdf">LWP11 Linzhi E1400 Ethash ASIC Tapeout.</a><br/>
+<br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP10-Random-Logic-Design.pdf">LWP10 EIP 1057 (ProgPoW): Open Chip Design for 1% cost/power increase.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP9-ASIC-Feasibility-5-Steps.pdf">LWP9 ASIC Feasibility Study in 5 Steps.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP8-ECIP-1043-Revisited.pdf">LWP8 ECIP 1043 (Ethash 1GB DAG) Revisited.</a><br/>
@@ -64,6 +65,7 @@ Ideas for future papers: PoW Glossary, PoW Change State Machine, What is memory-
   <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20180913-ETC-Summit-ASIC-Manufacturer-Perspective.pdf">PDF</a>,
   <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>
 </li>
+<br/>
 <li><b>2017-Nov-5: The Future of Proof-of-Work</b><br/>
   Venue: Scaling Bitcoin 2017 “Scaling the Edge” - November 4-5, 2017 - Stanford, USA<br/>
   <a href="https://stanford2017.scalingbitcoin.org/">Event</a>, 
