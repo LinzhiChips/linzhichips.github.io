@@ -19,10 +19,12 @@ Shop: Coming Soon
 
 <h3>News</h3>
 <ul>
-<li>placeholder: <b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
+<!--
+<li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
   Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
   <a href="https://etcsummit.com/">Event</a>
 </li>
+-->
 <li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
   <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
   (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
@@ -32,7 +34,9 @@ Shop: Coming Soon
 <h3>Linzhi Working Papers</h3>
 Ideas for future papers: PoW Glossary, PoW Change State Machine, What is memory-hard, road to PoW programmability, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
 <br/>
-placeholder: <a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> (2019 Conference Presentation)<br/>
+<!--
+<a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> (2019 Conference Presentation)<br/>
+-->
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">LWP15 EIP 1057: Posts Against ProgPoW - May-Sep 2019.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP14-On-Whistleblowing.pdf">LWP14 On Whistleblowing.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">LWP13 ASICs: A Manufacturer's Perspective.</a> (2018 Conference Presentation)<br/>
