@@ -27,22 +27,6 @@ Shop: Coming Soon
   <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
   (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
 </li>
-<li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
-  Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
-  Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
-  Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
-  <a href="https://etcsummit.com/2018-etc-summit/">Event</a>,
-  <a href="https://www.coindesk.com/a-new-line-of-powerful-asic-miners-is-coming-to-ethereum">Coindesk</a>,
-  <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20180913-ETC-Summit-ASIC-Manufacturer-Perspective.pdf">PDF</a>,
-  <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>
-</li>
-<li><b>2017-Nov-5: The Future of Proof-of-Work</b><br/>
-  Venue: Scaling Bitcoin 2017 “Scaling the Edge” - November 4-5, 2017 - Stanford, USA<br/>
-  <a href="https://stanford2017.scalingbitcoin.org/">Event</a>, 
-  <a href="https://www.coindesk.com/hold-fork-no-2x-everything-else-goes-scaling-bitcoin-event">Coindesk</a>,
-  <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20171104-Stanford-Future-of-Proof-of-Work.pdf">PDF</a>,
-  <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
-</li>
 </ul>
 
 <h3>Linzhi Working Papers</h3>
@@ -64,6 +48,26 @@ placeholder: <a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> 
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">LWP3 Achieving Mining Dominance. How cost advantage drives centralization.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">LWP2 Call to Ethereum Developers for ASIC Guidelines.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">LWP1 About Linzhi.</a><br/>
+
+<h3>Old News</h3>
+<ul>
+<li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
+  Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
+  Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
+  Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
+  <a href="https://etcsummit.com/2018-etc-summit/">Event</a>,
+  <a href="https://www.coindesk.com/a-new-line-of-powerful-asic-miners-is-coming-to-ethereum">Coindesk</a>,
+  <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20180913-ETC-Summit-ASIC-Manufacturer-Perspective.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>
+</li>
+<li><b>2017-Nov-5: The Future of Proof-of-Work</b><br/>
+  Venue: Scaling Bitcoin 2017 “Scaling the Edge” - November 4-5, 2017 - Stanford, USA<br/>
+  <a href="https://stanford2017.scalingbitcoin.org/">Event</a>, 
+  <a href="https://www.coindesk.com/hold-fork-no-2x-everything-else-goes-scaling-bitcoin-event">Coindesk</a>,
+  <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/20171104-Stanford-Future-of-Proof-of-Work.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
+</li>
+</ul>
 
 <center><img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-lunchtime.jpg" style="width:60%;"></center>
 Bye.
