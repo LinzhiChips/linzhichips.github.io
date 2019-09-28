@@ -63,5 +63,4 @@ placeholder: <a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> 
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">LWP1 About Linzhi.</a><br/>
 
 <center><img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-lunchtime.jpg" style="width:60%;"></center>
-Bye.<br/>
-
+Bye.
