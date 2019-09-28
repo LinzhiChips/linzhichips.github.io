@@ -21,7 +21,7 @@ Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
 Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
 
 <h3>Linzhi Working Papers</h3>
-Ideas for future papers: Proof-of-Work Glossary, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
+Ideas for future papers: PoW Glossary, PoW Change State Machine, What is memory-hard, road to PoW programmability, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
 <br/>
 <a href="">LWP16 Linzhi E1400 ETC ASIC - Architecture Overview</a> (2019 Conference Presentation)<br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">LWP15 EIP 1057: Posts Against ProgPoW - May-Sep 2019.</a><br/>
@@ -42,6 +42,9 @@ Ideas for future papers: Proof-of-Work Glossary, ASIC design workflow, datasheet
 
 <h3>Presentations</h3>
 <ul>
+<li>2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
+  <a href="https://etcsummit.com/">Event</a>,
+</li>
 <li>2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
   <a href="https://etcsummit.com/2018-etc-summit/">Event</a>,
   <a href="https://www.coindesk.com/a-new-line-of-powerful-asic-miners-is-coming-to-ethereum">Coindesk</a>,
