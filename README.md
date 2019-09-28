@@ -25,8 +25,8 @@ Ideas for future papers: Proof-of-Work Glossary, ASIC design workflow, datasheet
 <br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">LWP15 EIP 1057: Posts Against ProgPoW - May-Sep 2019.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP14-On-Whistleblowing.pdf">LWP14 On Whistleblowing.</a><br/>
-<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">LWP13 ASICs: A Manufacturer's Perspective.</a><br/>
-<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP12-Future-Proof-of-Work.pdf">LWP12 The Future of Proof-of-Work.</a><br/>
+<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">LWP13 ASICs: A Manufacturer's Perspective.</a> (2018 Conference Presentation)<br/>
+<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP12-Future-Proof-of-Work.pdf">LWP12 The Future of Proof-of-Work.</a> (2017 Conference Presentation)<br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP11-E1400-Tapeout-Announcement.pdf">LWP11 Linzhi E1400 Ethash ASIC Tapeout.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP10-Random-Logic-Design.pdf">LWP10 EIP 1057 (ProgPoW): Open Chip Design for 1% cost/power increase.</a><br/>
 <a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP9-ASIC-Feasibility-5-Steps.pdf">LWP9 ASIC Feasibility Study in 5 Steps.</a><br/>
