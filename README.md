@@ -1,3 +1,5 @@
+<center><img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-linzhi-logo-transparent-white-3500.png" style="width:100%;"></center>
+<br/>
 <center><img src="https://raw.githubusercontent.com/LinzhiChips/linzhichips.github.io/master/cc0/201909-linzhi-sign-narrow.jpg" style="width:50%;"></center>
 
 <h3>About Linzhi</h3>
