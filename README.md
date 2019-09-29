@@ -35,20 +35,20 @@ Shop: Coming Soon
 Ideas for future papers: PoW Glossary, PoW Change State Machine, What is memory-hard, road to PoW programmability, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
 <br/>
 <!--
-LWP16 Linzhi E1400 ETC ASIC - Architecture Overview (<a href="">PDF</a> (2019 Conference Presentation)<br/>
+LWP16:&nbsp; Linzhi E1400 ETC ASIC - Architecture Overview (<a href="">PDF</a> (2019 Conference Presentation)<br/>
 -->
-LWP15 EIP 1057: Posts Against ProgPoW - May-Sep 2019. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">PDF</a>)<br/>
-LWP14 On Whistleblowing. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP14-On-Whistleblowing.pdf">PDF</a>)<br/>
-LWP13 ASICs: A Manufacturer's Perspective. (2018 Conference) (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">PDF</a>, Video)<br/>
-LWP12 The Future of Proof-of-Work. (2017 Conference) (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP12-Future-Proof-of-Work.pdf">PDF</a>, Video)<br/>
-LWP11 Linzhi E1400 Ethash ASIC Tapeout. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP11-E1400-Tapeout-Announcement.pdf">PDF</a>)<br/>
+LWP15:&nbsp; EIP 1057: Posts Against ProgPoW - May-Sep 2019. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">PDF</a>)<br/>
+LWP14:&nbsp; On Whistleblowing. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP14-On-Whistleblowing.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/on-whistleblowing-56132c069aa3">Medium</a>)<br/>
+LWP13:&nbsp; ASICs: A Manufacturer's Perspective. (2018 Conference) (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP13-ASICs-Manufacturer-Perspective.pdf">PDF</a>, <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>)<br/>
+LWP12:&nbsp; The Future of Proof-of-Work. (2017 Conference) (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP12-Future-Proof-of-Work.pdf">PDF</a>, <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>)<br/>
+LWP11:&nbsp; Linzhi E1400 Ethash ASIC Tapeout. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP11-E1400-Tapeout-Announcement.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Medium</a>)<br/>
 <br/>
-LWP10 EIP 1057 (ProgPoW): Open Chip Design for 1% cost/power increase. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP10-Random-Logic-Design.pdf">PDF</a>)<br/>
-LWP9 ASIC Feasibility Study in 5 Steps. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP9-ASIC-Feasibility-5-Steps.pdf">PDF</a>)<br/>
-LWP8 ECIP 1043 (Ethash 1GB DAG) Revisited. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP8-ECIP-1043-Revisited.pdf">PDF</a>)<br/>
-LWP7 Does the origin of open-source code matter? (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP7-Origin-Open-Source.pdf">PDF</a>)<br/>
-LWP6 Bridging the Hardware-Software Divide. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP6-Bridging-HW-SW-Divide.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/bridging-the-hardware-software-divide-4-more-claims-5b520ae00c0c">Medium</a>)<br/>
-LWP5 Linzhi Telegram January 7 to 29, 2019. Lessons Learned. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP5-Telegram-January-2019.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/our-telegram-january-7-to-29-2019-lessons-learned-cb5a1fc0f039">Medium</a>)<br/>
+LWP10:&nbsp; EIP 1057 (ProgPoW): Open Chip Design for 1% cost/power increase. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP10-Random-Logic-Design.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/eip-1057-progpow-open-chip-design-for-only-1-cost-power-increase-eip-1057-progpow-d106d9baa6eb">Medium</a>)<br/>
+LWP9:&nbsp; ASIC Feasibility Study in 5 Steps. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP9-ASIC-Feasibility-5-Steps.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/studying-the-feasibility-of-an-asic-82634ac77d61">Medium</a>)<br/>
+LWP8:&nbsp; ECIP 1043 (Ethash 1GB DAG) Revisited. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP8-ECIP-1043-Revisited.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/ecip-1043-revisited-cd2e500b8550">Medium</a>)<br/>
+LWP7:&nbsp; Does the origin of open-source code matter? (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP7-Origin-Open-Source.pdf">PDF</a>)<br/>
+LWP6:&nbsp; Bridging the Hardware-Software Divide. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP6-Bridging-HW-SW-Divide.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/bridging-the-hardware-software-divide-4-more-claims-5b520ae00c0c">Medium</a>)<br/>
+LWP5:&nbsp; Linzhi Telegram January 7 to 29, 2019. Lessons Learned. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP5-Telegram-January-2019.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/our-telegram-january-7-to-29-2019-lessons-learned-cb5a1fc0f039">Medium</a>)<br/>
 LWP4:&nbsp; ASIC Resistance is a State of Mind. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP4-ASIC-Resistance-State-of-Mind.pdf">PDF</a>)<br/>
 LWP3:&nbsp; Achieving Mining Dominance. How cost advantage drives centralization. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/asics-and-51-achieving-mining-dominance-how-cost-advantage-drives-centralisation-cf28166d3d2a">Medium</a>)<br/>
 LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">PDF</a>)<br/>
