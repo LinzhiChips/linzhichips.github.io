@@ -47,12 +47,12 @@ LWP10 EIP 1057 (ProgPoW): Open Chip Design for 1% cost/power increase. (<a href=
 LWP9 ASIC Feasibility Study in 5 Steps. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP9-ASIC-Feasibility-5-Steps.pdf">PDF</a>)<br/>
 LWP8 ECIP 1043 (Ethash 1GB DAG) Revisited. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP8-ECIP-1043-Revisited.pdf">PDF</a>)<br/>
 LWP7 Does the origin of open-source code matter? (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP7-Origin-Open-Source.pdf">PDF</a>)<br/>
-LWP6 Bridging the Hardware-Software Divide. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP6-Bridging-HW-SW-Divide.pdf">PDF</a>)<br/>
-LWP5 Linzhi Telegram January 7 to 29, 2019. Lessons Learned. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP5-Telegram-January-2019.pdf">PDF</a>)<br/>
-LWP4 ASIC Resistance is a State of Mind. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP4-ASIC-Resistance-State-of-Mind.pdf">PDF</a>)<br/>
-LWP3 Achieving Mining Dominance. How cost advantage drives centralization. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">PDF</a>)<br/>
-LWP2 Call to Ethereum Developers for ASIC Guidelines. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">PDF</a>)<br/>
-LWP1 About Linzhi. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
+LWP6 Bridging the Hardware-Software Divide. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP6-Bridging-HW-SW-Divide.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/bridging-the-hardware-software-divide-4-more-claims-5b520ae00c0c">Medium</a>)<br/>
+LWP5 Linzhi Telegram January 7 to 29, 2019. Lessons Learned. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP5-Telegram-January-2019.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/our-telegram-january-7-to-29-2019-lessons-learned-cb5a1fc0f039">Medium</a>)<br/>
+LWP4:&nbsp; ASIC Resistance is a State of Mind. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP4-ASIC-Resistance-State-of-Mind.pdf">PDF</a>)<br/>
+LWP3:&nbsp; Achieving Mining Dominance. How cost advantage drives centralization. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/asics-and-51-achieving-mining-dominance-how-cost-advantage-drives-centralisation-cf28166d3d2a">Medium</a>)<br/>
+LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">PDF</a>)<br/>
+LWP1:&nbsp; About Linzhi. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
 
 <h3>Old News</h3>
 <ul>
