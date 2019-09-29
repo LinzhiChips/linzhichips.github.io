@@ -32,8 +32,6 @@ Shop: Coming Soon
 </ul>
 
 <h3>Linzhi Working Papers</h3>
-Ideas for future papers: PoW Glossary, PoW Change State Machine, What is memory-hard, road to PoW programmability, ASIC design workflow, datasheets, roadmap, Proof-of-Contribution.<br/>
-<br/>
 <!--
 LWP16:&nbsp; Linzhi E1400 ETC ASIC - Architecture Overview (<a href="">PDF</a> (2019 Conference Presentation)<br/>
 -->
