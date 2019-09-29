@@ -34,8 +34,10 @@ Shop: Coming Soon
 <h3>Coming Up</h3>
 <ul>
 <li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
-  Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
-  <a href="https://etcsummit.com/">Event</a>
+  Venue: <a href="https://etcsummit.com/">2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada</a>
+</li>
+<li><b>2019-November: Linzhi E1400 Chip Bringup</b><br/>
+  Follow in our Telegram <a href="https://t.me/LinzhiCorp">LinzhiCorp</a>
 </li>
 </ul>
 
