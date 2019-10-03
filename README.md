@@ -41,11 +41,14 @@ Shop: Coming Soon
 </li>
 </ul>
 
+<div id="transparency">
 <h3>Linzhi E1400 Transparency Updates</h3>
 <ul>
  <li>2019-Sep-11: Ordered 37 wafers.</li>
 </ul>
+</div>
 
+<div id="lwp">
 <h3>Linzhi Working Papers</h3>
 <!--
 LWP16:&nbsp; Linzhi E1400 ETC ASIC - Architecture Overview (<a href="">PDF</a> (2019 Conference Presentation)<br/>
@@ -66,6 +69,7 @@ LWP4:&nbsp; ASIC Resistance is a State of Mind. (<a href="https://github.com/Lin
 LWP3:&nbsp; Achieving Mining Dominance. How cost advantage drives centralization. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP3-Mining-Dominance-Cost-Advantage.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/asics-and-51-achieving-mining-dominance-how-cost-advantage-drives-centralisation-cf28166d3d2a">Medium</a>)<br/>
 LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP2-ASIC-Guidelines.pdf">PDF</a>)<br/>
 LWP1:&nbsp; About Linzhi. (<a href="https://github.com/LinzhiChips/linzhichips.github.io/raw/master/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
+</div>
 
 <h3>Old News</h3>
 <ul>
