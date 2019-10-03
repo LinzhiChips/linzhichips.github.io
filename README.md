@@ -43,7 +43,7 @@ Shop: Coming Soon
 
 <h3>Linzhi E1400 Transparency Updates</h3>
 <ul>
- <li>2019-Sep-11: Ordered 47 wafers.</li>
+ <li>2019-Sep-11: Ordered 37 wafers.</li>
 </ul>
 
 <h3>Linzhi Working Papers</h3>
