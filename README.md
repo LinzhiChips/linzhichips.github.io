@@ -41,6 +41,11 @@ Shop: Coming Soon
 </li>
 </ul>
 
+<h3>Linzhi E1400 Transparency Updates</h3>
+<ul>
+ <li>2019-Sep-11: Ordered 47 wafers.</li>
+</ul>
+
 <h3>Linzhi Working Papers</h3>
 <!--
 LWP16:&nbsp; Linzhi E1400 ETC ASIC - Architecture Overview (<a href="">PDF</a> (2019 Conference Presentation)<br/>
