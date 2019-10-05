@@ -66,7 +66,7 @@ LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://l
 LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
 </div>
 
-<div id="old_news">
+<br/>
 <h3>Old News</h3>
 <ul>
 <li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
@@ -92,7 +92,6 @@ LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf
   <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
 </li>
 </ul>
-</div>
 
 <center><img src="https://linzhi.io/cc0/201909-lunchtime.jpg" style="width:60%;"></center>
 Bye.
