@@ -19,12 +19,6 @@ Shop: Coming Soon
 
 <h3>News</h3>
 <ul>
-<!--
-<li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
-  Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
-  <a href="https://etcsummit.com/">Event</a>
-</li>
--->
 <li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
   <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
   (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
@@ -66,7 +60,7 @@ LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://l
 LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
 </div>
 
-<br/>
+<p>
 <h3>Old News</h3>
 <ul>
 <li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
