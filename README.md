@@ -47,6 +47,7 @@ Shop: Coming Soon
 
 <div id="lwp">
 <h3>Linzhi Working Papers</h3>
+LWP17:&nbsp; What Is Memory-Hard? (<a href="https://medium.com/@Linzhi/what-is-memory-hard-45a363b59dfe">Medium</a>)<br/>
 LWP16:&nbsp; Linzhi E1400 Ethash ASIC - Architecture Overview. (2019 Conference) (<a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>)<br/>
 LWP15:&nbsp; EIP 1057: Posts Against ProgPoW - May-Sep 2019. (<a href="https://linzhi.io/docs/LWP15-Posts-Against-ProgPoW-05092019.pdf">PDF</a>)<br/>
 LWP14:&nbsp; On Whistleblowing. (<a href="https://linzhi.io/docs/LWP14-On-Whistleblowing.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/on-whistleblowing-56132c069aa3">Medium</a>)<br/>
