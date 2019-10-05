@@ -68,6 +68,7 @@ LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf
   <a href="https://etcsummit.com/">Event</a>,
   <a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>
 </li>
+<br/>
 <li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
   Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
   Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
