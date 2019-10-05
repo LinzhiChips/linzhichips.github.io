@@ -33,9 +33,6 @@ Shop: Coming Soon
 
 <h3>Coming Up</h3>
 <ul>
-<li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
-  Venue: <a href="https://etcsummit.com/">2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada</a>
-</li>
 <li><b>2019-November: Linzhi E1400 Chip Bringup</b><br/>
   Follow in our Telegram <a href="https://t.me/LinzhiCorp">LinzhiCorp</a>
 </li>
@@ -69,8 +66,14 @@ LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://l
 LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
 </div>
 
+<div id="old_news">
 <h3>Old News</h3>
 <ul>
+<li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
+  Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
+  <a href="https://etcsummit.com/">Event</a>,
+  <a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>
+</li>
 <li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
   Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
   Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
@@ -89,6 +92,7 @@ LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf
   <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
 </li>
 </ul>
+</div>
 
 <center><img src="https://linzhi.io/cc0/201909-lunchtime.jpg" style="width:60%;"></center>
 Bye.
