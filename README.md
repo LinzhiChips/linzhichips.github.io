@@ -22,7 +22,8 @@ Shop: Coming Soon
 <li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
   Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
   <a href="https://etcsummit.com/">Event</a>,
-  <a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>
+  <a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=_enGUG_Jbi4">Video</a>
 </li>
 <br/>
 <li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
