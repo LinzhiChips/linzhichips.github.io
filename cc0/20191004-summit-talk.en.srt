@@ -1,0 +1,655 @@
+1
+00:00:08,00 --> 00:00:11,00
+Good afternoon, my name is Werner Almesberger.
+
+2
+00:00:12,00 --> 00:00:22,00
+I've done many things in the past, I've worked on - mainly in open source - things in the Linux kernel many years ago,
+
+3
+00:00:22,00 --> 00:00:32,00
+and today I'll talk about who I'm working with at the moment,
+
+4
+00:00:32,00 --> 00:00:41,00
+which is for a change nothing to do with software. It's a mining ASIC for ETC, for Ethash.
+
+5
+00:00:41,00 --> 00:00:53,00
+And this is in the company called Linzhi, this is a Shenzhen based fabless ASIC startup,
+
+6
+00:00:53,00 --> 00:01:03,00
+where we design and build an Ethash miner, which was announced at the last summit by Chen Min,
+
+7
+00:01:03,00 --> 00:01:10,00
+and we are using for this miner a custom ASIC, that is specifically purpose built just for mining Ethash,
+
+8
+00:01:10,00 --> 00:01:19,00
+and we expect a performance of about 1.4 GH/sec at a power consumption of 1 kW.
+
+9
+00:01:19,00 --> 00:01:26,00
+Now, before I'll talk about our architecture, let me briefly mention a few things from history,
+
+10
+00:01:26,00 --> 00:01:31,00
+ancient history in this case. The times of Bitcoin.
+
+11
+00:01:31,00 --> 00:01:41,00
+So at the beginning, there was Bitcoin CPU mining with SHA-256 and in a typical miner,
+
+12
+00:01:41,00 --> 00:01:50,00
+running on your CPU, and a CPU has one, or a small number of compute cores, there where you are doing your hashes.
+
+13
+00:01:50,00 --> 00:02:00,00
+Now, people quickly realized that you can do better, because the CPU is a big thing, a lot of transistors.
+
+14
+00:02:00,00 --> 00:02:09,00
+It can do a lot of different things, the different things you can do with the CPU you have floating point stuff and so on,
+
+15
+00:02:09,00 --> 00:02:11,00
+even none of this for doing the mining.
+
+16
+00:02:11,00 --> 00:02:17,00
+So, why not do something a bit more efficient, and reduce the functionality,
+
+17
+00:02:17,00 --> 00:02:24,00
+and do only what you actually need to do, namely the hash calculation, and put this on a chip,
+
+18
+00:02:24,00 --> 00:02:29,00
+and then you can have a lot of little compute units in the same space,
+
+19
+00:02:29,00 --> 00:02:32,00
+so the chip costs roughly the same.
+
+20
+00:02:32,00 --> 00:02:40,00
+And they all work in parallel, and you can do lots and lots of hash operations with the same effort,
+
+21
+00:02:40,00 --> 00:02:45,00
+and you have a huge benefit over the CPU. So this is when ASICs were born,
+
+22
+00:02:45,00 --> 00:02:51,00
+and well what happened is that the best CPU miners,
+
+23
+00:02:51,00 --> 00:02:58,00
+that was around 2011, when people basically gave up even trying to CPU mine,
+
+24
+00:02:58,00 --> 00:03:11,00
+they did something like 30 MH/sec, while a contemporary, that means now, ASIC miner does 60 TH/sec,
+
+25
+00:03:11,00 --> 00:03:14,00
+so they are quite a bit faster.
+
+26
+00:03:14,00 --> 00:03:23,00
+If you adjust those values for technological progress over time, using Moore's law,
+
+27
+00:03:23,00 --> 00:03:30,00
+then we would get a performance difference between a CPU extrapolated to the present day,
+
+28
+00:03:30,00 --> 00:03:35,00
+and the present day ASIC miner, of about 50,000 - in terms of hashing speed.
+
+29
+00:03:35,00 --> 00:03:42,00
+Now, you may not be necessarily interested in hashing speed per se, but more in power efficiency.
+
+30
+00:03:42,00 --> 00:03:50,00
+There the factor is a little bit smaller, so that maybe something like 5000 or a bit more.
+
+31
+00:03:50,00 --> 00:03:54,00
+So still, ASICs have a huge benefit over CPUs.
+
+32
+00:03:54,00 --> 00:03:59,00
+And, if you had a time machine, sitting around somewhere in your basement,
+
+33
+00:03:59,00 --> 00:04:08,00
+and you would like to put this to some creative use, you could go and shop and buy a state-of-the-art ASIC miner,
+
+34
+00:04:08,00 --> 00:04:16,00
+for Bitcoin, hop into your time machine, go back 8 years, get out of your DeLorean,
+
+35
+00:04:16,00 --> 00:04:27,00
+and plug your miner in, and suddenly you would have increased the global hashrate from 10 TH to 70 TH.
+
+36
+00:04:27,00 --> 00:04:33,00
+We are not talking about a 51% attack, we are talking about an 85% attack.
+
+37
+00:04:33,00 --> 00:04:41,00
+You basically own the network. So, clearly, when people saw what was happening with the ASICs,
+
+38
+00:04:41,00 --> 00:04:49,00
+they were a bit shocked. And that caused a lot of bad blood with respect to ASICs.
+
+39
+00:04:49,00 --> 00:04:58,00
+And, some people started to think about ways to solve the ASIC problem, and this is how they came up with Ethash.
+
+40
+00:04:58,00 --> 00:05:04,00
+Now, let's briefly go over Ethash, what you get is a header hash value, and you have your nonce,
+
+41
+00:05:04,00 --> 00:05:09,00
+which you change on your own for your attempts, for the attempts you make.
+
+42
+00:05:09,00 --> 00:05:13,00
+You hash those two together, and with this you have generated your task.
+
+43
+00:05:13,00 --> 00:05:20,00
+And now you do the mixing, where you first calculate an address, from this, from your current value,
+
+44
+00:05:20,00 --> 00:05:28,00
+and this address you look up in the DAG, a big block of memory, and you retrieve the corresponding memory line.
+
+45
+00:05:28,00 --> 00:05:35,00
+You mix it with the result you have so far, and you repeat the whole operation 64 times,
+
+46
+00:05:35,00 --> 00:05:42,00
+and then you do some more hashing, and you compare with the difficulty target.
+
+47
+00:05:42,00 --> 00:05:49,00
+Now, the DAG is the new ingredient that should make the thing more difficult for ASICs.
+
+48
+00:05:49,00 --> 00:05:57,00
+And, this makes it memory hard, and the DAG is very large, so you can't just put it on a little corner on your chip.
+
+49
+00:05:57,00 --> 00:06:03,00
+It's currently about 3 GB and it's growing over time.
+
+50
+00:06:03,00 --> 00:06:09,00
+So the idea was that, basically, let's look at the comparison...
+
+51
+00:06:09,00 --> 00:06:16,00
+Again you have your CPU miners, a small number of cores, a reasonable amount of memory bandwidth.
+
+52
+00:06:16,00 --> 00:06:21,00
+And you need both, you need to compute, and you need the memory bandwidth.
+
+53
+00:06:21,00 --> 00:06:27,00
+With GPU miners, you can do better, they are more specialized, so your compute cores get smaller,
+
+54
+00:06:27,00 --> 00:06:32,00
+you can have more of them at the same chip surface, and they are also optimized for memory bandwidth.
+
+55
+00:06:32,00 --> 00:06:37,00
+They have vast memory bandwidth, they have wide buses.
+
+56
+00:06:37,00 --> 00:06:49,00
+So they are better than CPUs for mining, and ASICs could of course still win on the side of the compute units,
+
+57
+00:06:49,00 --> 00:06:52,00
+because the GPUs are still sort-of general purpose.
+
+58
+00:06:52,00 --> 00:07:00,00
+You could make an ASIC that is only Ethash, but you would still have the memory bandwidth as your limiting factor.
+
+59
+00:07:00,00 --> 00:07:06,00
+And so, unfortunately, you are not really winning.
+
+60
+00:07:06,00 --> 00:07:13,00
+This means that you might be able to more or less pull even with the GPUs, but then GPUs are commodity hardware,
+
+61
+00:07:13,00 --> 00:07:21,00
+they are easy to get, big market, so you have the economy of scale on your side with a GPU.
+
+62
+00:07:21,00 --> 00:07:24,00
+So, ASICs just shouldn't make sense,
+
+63
+00:07:24,00 --> 00:07:31,00
+and this would mean that those evil ASICs would stay away from the precious Ethash.
+
+64
+00:07:31,00 --> 00:07:35,00
+So far the theory.
+
+65
+00:07:34,00 --> 00:07:41,00
+Now, this is how we do it. Oh, let me first get back 2 slides.
+
+66
+00:07:41,00 --> 00:07:47,00
+Let's briefly review the algorithm. So if the green part is the generator, the generation of the task,
+
+67
+00:07:47,00 --> 00:07:52,00
+then you have the mixing in the red box, and at the end the yellow box is the finalizing,
+
+68
+00:07:52,00 --> 00:07:56,00
+and your memory is in the blue box.
+
+69
+00:07:56,00 --> 00:08:01,00
+So, in our architecture, this is what our chip more or less looks like.
+
+70
+00:08:01,00 --> 00:08:06,00
+We have those little green boxes which do the generation.
+
+71
+00:08:06,00 --> 00:08:10,00
+We have multiple of them so they don't have to work too hard.
+
+72
+00:08:10,00 --> 00:08:16,00
+And then, when the task is generated they send it to a so-called mixer node.
+
+73
+00:08:16,00 --> 00:08:23,00
+The mixer node contains a bit of logic to do the computation, and a bit of memory.
+
+74
+00:08:23,00 --> 00:08:29,00
+And there are lots of mixer nodes, 72 of them. They are connected with each other through a network-on-a-chip.
+
+75
+00:08:29,00 --> 00:08:38,00
+And, at the bottom you can see the yellow boxes which are the finalizers which do the final hash and the comparison.
+
+76
+00:08:38,00 --> 00:08:46,00
+Now, with those 72 mixing nodes, we can know each of them has 1 MB of memory.
+
+77
+00:08:46,00 --> 00:08:53,00
+So, this means 72 MB of memory per chip. Which is too small for the DAG.
+
+78
+00:08:53,00 --> 00:08:59,00
+So, we can solve this by using multiple chips, distributing the DAG over those chips,
+
+79
+00:08:59,00 --> 00:09:06,00
+but then we do also need to communicate between chips, and so we add - which is shown on the side -
+
+80
+00:09:06,00 --> 00:09:11,00
+communication interfaces where the chips can talk to each other.
+
+81
+00:09:11,00 --> 00:09:20,00
+Now, let's look at some performance data. Ah sorry, no, first of all, how the hashing operation works.
+
+82
+00:09:18,00 --> 00:09:25,00
+First of all you do the generation, which we call round 0, then you send it to the adjacent mixer node,
+
+83
+00:09:25,00 --> 00:09:30,00
+where only the DAG address is calculated, because we don't know yet where this thing has to go.
+
+84
+00:09:30,00 --> 00:09:35,00
+Then we send it to the node that has the corresponding DAG line in it's memory.
+
+85
+00:09:35,00 --> 00:09:42,00
+The DAG line gets retrieved, the mixing is done, it calculates the next DAG address for the next round.
+
+86
+00:09:42,00 --> 00:09:49,00
+Then let's say this DAG address is in the memory on a different chip,
+
+87
+00:09:48,00 --> 00:09:56,00
+so it gets sent to the node where the communication interface connects,
+
+88
+00:09:56,00 --> 00:10:01,00
+then it gets handed over to the the communication interface, arrives at the destination chip,
+
+89
+00:10:01,00 --> 00:10:06,00
+and there it enters on the node where the communication interface is attached.
+
+90
+00:10:06,00 --> 00:10:09,00
+This will then route it to the node which has the memory.
+
+91
+00:10:09,00 --> 00:10:15,00
+There we again retrieve the memory line, do the mixing, calculate the next DAG address, and so on,
+
+92
+00:10:15,00 --> 00:10:18,00
+64 times in all, until the last round is done.
+
+93
+00:10:18,00 --> 00:10:22,00
+And then it gets sent down to the finalizer on the chip.
+
+94
+00:10:22,00 --> 00:10:25,00
+So generator and finalizer don't have to be on the same chip,
+
+95
+00:10:25,00 --> 00:10:28,00
+it doesn't really matter where things start and where they end.
+
+96
+00:10:28,00 --> 00:10:33,00
+Now, let's look at performance - memory bandwith.
+
+97
+00:10:33,00 --> 00:10:38,00
+There are a few examples for GPUs, contemporary GPUs.
+
+98
+00:10:38,00 --> 00:10:41,00
+I'm not quite sure if they are the best for mining,
+
+99
+00:10:41,00 --> 00:10:45,00
+but they have pretty good, pretty reasonable performance, it seems.
+
+100
+00:10:45,00 --> 00:10:52,00
+So one would be an AMD Radeon RX 5700, which has a memory bus of 256 bits,
+
+101
+00:10:52,00 --> 00:10:58,00
+and it gets a throughput of about 450 GB/sec.
+
+102
+00:10:58,00 --> 00:11:09,00
+Another one would be the Nvidia Titan RTX, which has a wider memory bus, and does about 670 GB/sec.
+
+103
+00:11:09,00 --> 00:11:19,00
+Now, our system, our memory has a speed of 600 MHz, and it needs 2 cycles for every access.
+
+104
+00:11:19,00 --> 00:11:31,00
+Our memory has a width of 1024 bits, which means that we get throughput of almost 40 GB/sec,
+
+105
+00:11:31,00 --> 00:11:34,00
+per mixer, per mixer node in the chip.
+
+106
+00:11:34,00 --> 00:11:41,00
+So there are 72 mixers in a chip, which means we get to almost 3 TB/sec.
+
+107
+00:11:41,00 --> 00:11:48,00
+So this is already starting to look good in comparison, right?, because the GPUs don't even reach a TB.
+
+108
+00:11:48,00 --> 00:11:57,00
+But then we have 64 of those chips, so our total memory bandwidth in the whole system is almost 180 TB/sec.
+
+109
+00:11:57,00 --> 00:12:03,00
+So, I think we can confidently say that memory bandwidth is not really a limiting factor here.
+
+110
+00:12:03,00 --> 00:12:09,00
+In fact, we have so much overkill there that we use it extremely inefficiently.
+
+111
+00:12:09,00 --> 00:12:15,00
+We also store a queue in there, so for every access we do to the DAG,
+
+112
+00:12:15,00 --> 00:12:20,00
+we do two accesses for just moving data around. 
+
+113
+00:12:20,00 --> 00:12:23,00
+But I mean there is lots of spare room.
+
+114
+00:12:23,00 --> 00:12:27,00
+However, this isn't our real bottleneck.
+
+115
+00:12:27,00 --> 00:12:32,00
+Our real bottleneck is the communication now, because the chips have to talk to each other.
+
+116
+00:12:32,00 --> 00:12:41,00
+And we have up to 42 Gbits/sec, per communication link.
+
+117
+00:12:41,00 --> 00:12:52,00
+All the chips are fully connected with each other, so each chip connects to all 63 others on the board.
+
+118
+00:12:52,00 --> 00:12:59,00
+And the links are bidirectional, so this means that we have a peak throughput of about 130 Tbits/sec on a board,
+
+119
+00:12:59,00 --> 00:13:05,00
+and for every task, for every complete hash, all 64 rounds,
+
+120
+00:13:05,00 --> 00:13:12,00
+we need to send roughly 75 Kbits, if everything added together,
+
+121
+00:13:12,00 --> 00:13:19,00
+and this means that we have a theoretical limit of about 1.7 GH/sec.
+
+122
+00:13:19,00 --> 00:13:26,00
+Now, there are always some factors where we don't use it perfectly, and where things get slowed down,
+
+123
+00:13:26,00 --> 00:13:38,00
+there are some lossages along the way, and we expect our real performance of 1.4 GH/sec, as I said at the beginning.
+
+124
+00:13:38,00 --> 00:13:41,00
+Now, there is a little bit more to making a miner.
+
+125
+00:13:41,00 --> 00:13:47,00
+This is pretty standard stuff. So we have our two ASIC boards. The miner can have one or two boards.
+
+126
+00:13:47,00 --> 00:13:51,00
+Then there is a controller board, we have a Xilinx Zynq,
+
+127
+00:13:51,00 --> 00:13:57,00
+which basically acts as a, simply as a microcontroller,
+
+128
+00:13:57,00 --> 00:14:05,00
+and we have a few things that we like to do in the FPGA, but it doesn't really do much work.
+
+129
+00:14:05,00 --> 00:14:10,00
+All this goes into an enclosure, which has two fans on the rear.
+
+130
+00:14:10,00 --> 00:14:18,00
+On the rear there is also power input, it's 12V, standard mining power.
+
+131
+00:14:18,00 --> 00:14:25,00
+And, on the front panel we have the Ethernet plug, we have a reset button, quite useful,
+
+132
+00:14:25,00 --> 00:14:33,00
+and we have another button for some control functions, plus we have some blinken lights.
+
+133
+00:14:33,00 --> 00:14:40,00
+Now, we have done our tapeout, last month, finally.
+
+134
+00:14:40,00 --> 00:14:45,00
+Tapeout is when you are finished with the design and your simulations and such,
+
+135
+00:14:45,00 --> 00:14:53,00
+and you send the files to the semiconductor factory, and then they make the chip for you.
+
+136
+00:14:53,00 --> 00:14:58,00
+Now we are waiting for those chips to come back, this will take about, I think this takes about 2 months,
+
+137
+00:14:58,00 --> 00:15:05,00
+so we expect them to be back around mid to end November, and then we will start with the bringup,
+
+138
+00:15:05,00 --> 00:15:14,00
+which means we will test whether the chip converts power into, perhaps, some calculations,
+
+139
+00:15:14,00 --> 00:15:19,00
+or if it's more interested in converting power into smoke.
+
+140
+00:15:19,00 --> 00:15:26,00
+And, then we need to see if we can talk to it, and if it's willing to communicate,
+
+141
+00:15:26,00 --> 00:15:31,00
+and we can maybe try to mine a little bit on a single chip, which is really completely useless,
+
+142
+00:15:31,00 --> 00:15:42,00
+because we don't have the full DAG.
+
+143
+00:15:33,00 --> 00:15:39,00
+But I mean it would show us that the logic is working, we can test this, then combine multiple chips, and so on.
+
+144
+00:15:39,00 --> 00:15:45,00
+And then integrate everything, check that all the software is working, and so on,
+
+145
+00:15:45,00 --> 00:15:53,00
+and we hope that things will be available for sale around first quarter next year.
+
+146
+00:15:53,00 --> 00:15:57,00
+And, now maybe you are asking yourself the question:
+
+147
+00:15:57,00 --> 00:16:05,00
+Given that there are now all those ASICs for Ethash - has Ethash failed?
+
+148
+00:16:05,00 --> 00:16:11,00
+And, you could say in one sense, if you use a very strict interpretation of what ASIC Resistance means,
+
+149
+00:16:11,00 --> 00:16:18,00
+namely that there could not be any ASICs, they would be economically infeasible, then you could say yes.
+
+150
+00:16:18,00 --> 00:16:25,00
+But, if you think at what happened to Bitcoin, then you got basically,
+
+151
+00:16:25,00 --> 00:16:31,00
+where the CPUs got basically eradicated by ASICs, because they enjoyed such a huge performance difference,
+
+152
+00:16:31,00 --> 00:16:36,00
+and apparently nobody really saw that coming, which is surprising.
+
+153
+00:16:36,00 --> 00:16:41,00
+And so, then you see that actually Ethash did extremely well.
+
+154
+00:16:41,00 --> 00:16:49,00
+Because now there are ASICs, and they are a bit more efficient than the GPUs, which is to be expected.
+
+155
+00:16:49,00 --> 00:16:59,00
+I mean, you started your ASIC resistant design on using ASICs already.
+
+156
+00:16:59,00 --> 00:17:04,00
+Your CPU, GPU, are just ASICs. So obviously, it can be done on ASICs,
+
+157
+00:17:04,00 --> 00:17:10,00
+and if you are a specialized ASIC it's extremely likely to be a little bit faster, at least.
+
+158
+00:17:10,00 --> 00:17:13,00
+So, that is pretty much a given.
+
+159
+00:17:13,00 --> 00:17:21,00
+But, you can also see that those ASICs are not a thousand times better than CPUs or GPUs.
+
+160
+00:17:21,00 --> 00:17:26,00
+So that's the good news, so Ethash actually worked, it did its job,
+
+161
+00:17:26,00 --> 00:17:34,00
+it prevented the threat of a hostile takeover.
+
+162
+00:17:34,00 --> 00:17:41,00
+So, if you want to know more, you can go to the website of Linzhi, there is linzhi.io.
+
+163
+00:17:41,00 --> 00:17:50,00
+You can also get the talk slides there, and we are also on Telegram as LinzhiCorp.
+
+164
+00:17:50,00 --> 00:17:55,00
+[End of Subtitles]

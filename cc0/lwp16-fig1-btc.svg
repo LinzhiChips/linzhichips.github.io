@@ -1,0 +1,232 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.7a -->
+<!-- CreationDate: 2019-10-05 21:22:59 -->
+<!-- Magnification: 1.05 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="317pt" height="139pt"
+	viewBox="1650 428 5026 2206">
+<g fill="none">
+<!-- Line -->
+<rect x="2700" y="450" width="720" height="675" fill="#000000"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="2700" y="1575" width="720" height="675" fill="#000000"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<defs>
+<clipPath id="cp0">
+	<path clip-rule="evenodd" d="M 1650,428 H 6676 V 2634 H 1650 z
+		M 3917,615 3900,590 3855,627 3867,645z"/>
+</clipPath>
+</defs>
+<path d="M 3870,720 A 75 75 0 1 0 3870 630" clip-path="url(#cp0)"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Forward arrow to point 3870,630 -->
+<polygon points=" 3900,590 3884,620 3917,615 3900,590"
+	stroke="#000000" stroke-width="15px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Line -->
+<rect x="3600" y="630" width="225" height="90" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<defs>
+<clipPath id="cp1">
+	<path clip-rule="evenodd" d="M 1650,428 H 6676 V 2634 H 1650 z
+		M 3917,840 3900,815 3855,852 3867,870z"/>
+</clipPath>
+</defs>
+<path d="M 3870,945 A 75 75 0 1 0 3870 855" clip-path="url(#cp1)"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Forward arrow to point 3870,855 -->
+<polygon points=" 3900,815 3884,845 3917,840 3900,815"
+	stroke="#000000" stroke-width="15px" stroke-miterlimit="8" fill="#000000"/>
+<!-- Line -->
+<rect x="3600" y="855" width="225" height="90" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,1620 A 32 32 0 1 0 3780 1575"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,1710 A 32 32 0 1 0 3780 1665"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,1800 A 32 32 0 1 0 3780 1755"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,1890 A 32 32 0 1 0 3780 1845"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,1980 A 32 32 0 1 0 3780 1935"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,2070 A 32 32 0 1 0 3780 2025"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,2160 A 32 32 0 1 0 3780 2115"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 3780,2250 A 32 32 0 1 0 3780 2205"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="1575" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="1665" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="1755" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="1845" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="1935" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="2025" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="2115" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3600" y="2205" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,1620 A 32 32 0 1 0 4140 1575"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,1710 A 32 32 0 1 0 4140 1665"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,1800 A 32 32 0 1 0 4140 1755"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,1890 A 32 32 0 1 0 4140 1845"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,1980 A 32 32 0 1 0 4140 1935"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,2070 A 32 32 0 1 0 4140 2025"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,2160 A 32 32 0 1 0 4140 2115"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4140,2250 A 32 32 0 1 0 4140 2205"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="1575" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="1665" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="1755" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="1845" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="1935" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="2025" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="2115" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="3960" y="2205" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,1620 A 32 32 0 1 0 4500 1575"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,1710 A 32 32 0 1 0 4500 1665"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,1800 A 32 32 0 1 0 4500 1755"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,1890 A 32 32 0 1 0 4500 1845"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,1980 A 32 32 0 1 0 4500 1935"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,2070 A 32 32 0 1 0 4500 2025"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,2160 A 32 32 0 1 0 4500 2115"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Arc -->
+<path d="M 4500,2250 A 32 32 0 1 0 4500 2205"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="1575" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="1665" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="1755" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="1845" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="1935" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="2025" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="2115" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<rect x="4320" y="2205" width="135" height="45" fill="#ffcccc"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3735,1170 3735,900"
+	stroke="#b00000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3555,1575 3555,1530 4590,1530 4590,1575"
+	stroke="#b00000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3735,1350 3735,1530"
+	stroke="#b00000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 3780,1170 3915,1260 3780,1350"
+	stroke="#b00000" stroke-width="45px"/>
+<!-- Line -->
+<polyline points=" 3600,1170 3735,1260 3600,1350"
+	stroke="#b00000" stroke-width="45px"/>
+<!-- Line -->
+<polyline points=" 3645,2295 3645,2430"
+	stroke="#000000" stroke-width="15px"/>
+<!-- Line -->
+<polyline points=" 6120,1935 6255,2115 6435,1620"
+	stroke="#00b000" stroke-width="60px" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- Text -->
+<text xml:space="preserve" x="3060" y="900" fill="#ffffff" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="180" text-anchor="middle">CPU</text>
+<!-- Text -->
+<text xml:space="preserve" x="3060" y="2025" fill="#ffffff" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="180" text-anchor="middle">ASIC</text>
+<!-- Text -->
+<text xml:space="preserve" x="1665" y="630" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="144" text-anchor="start">SHA-256</text>
+<!-- Text -->
+<text xml:space="preserve" x="3690" y="2565" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="144" text-anchor="middle">Compute cores</text>
+<!-- Text -->
+<text xml:space="preserve" x="4815" y="1125" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="96" text-anchor="start">Global BTC hash rate July</text>
+<!-- Text -->
+<text xml:space="preserve" x="4815" y="2070" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="144" text-anchor="start">(per miner)</text>
+<!-- Text -->
+<text xml:space="preserve" x="4815" y="1890" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="144" text-anchor="start">~60 TH/s</text>
+<!-- Text -->
+<text xml:space="preserve" x="4815" y="720" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="144" text-anchor="start">~30 MH/s</text>
+<!-- Text -->
+<text xml:space="preserve" x="4815" y="900" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="144" text-anchor="start">(i7-990X ~2011)</text>
+<!-- Text -->
+<text xml:space="preserve" x="4815" y="1260" fill="#000000" font-family="Helvetica" font-style="normal" font-weight="bold" font-size="96" text-anchor="start">2011-July 2012: ~10 TH/s</text>
+</g>
+</svg>
