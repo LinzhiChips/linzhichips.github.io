@@ -46,6 +46,9 @@ Shop: Coming Soon
 </ul>
 </div>
 
+<h3>ETC Network Stability</h3>
+<a href="https://etcstats.net/">etcstats.net</a>, <a href="https://etcstatus.live/">Mining Alert Level @etcstatus.live</a>
+
 <div id="lwp">
 <h3>Linzhi Working Papers</h3>
 LWP17:&nbsp; What Is Memory-Hard? (<a href="https://linzhi.io/docs/LWP17-What-Is-Memory-Hard.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/what-is-memory-hard-45a363b59dfe">Medium</a>)<br/>
