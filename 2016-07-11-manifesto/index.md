@@ -39,4 +39,5 @@ The blockchain revolution won’t be centralized. Let’s make sure of it.</p>
 
 <p><strong>Onward.</strong></p>
 
-<i>The Manifesto was copied from ethereumclassic.org/blog/2016-07-11-manifesto/, originally with a CC-0 public domain waiver and reproduced here in the true spirit of decentralization, and with public domain waiver like all original content on linzhi.io</i>
+<hr>
+<i>The Manifesto was copied from <a href="https://ethereumclassic.org/blog/2016-07-11-manifesto/">ethereumclassic.org/blog/2016-07-11-manifesto/</a>, originally with a CC-0 public domain waiver and reproduced here in the true spirit of decentralization, and with public domain waiver like all original content on linzhi.io</i>
