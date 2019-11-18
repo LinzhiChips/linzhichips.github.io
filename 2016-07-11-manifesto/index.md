@@ -1,7 +1,7 @@
 <h1>A Crypto-Decentralist Manifesto</h1>
 <h3>July 11, 2016 by Arvicco</h3>
 
-<p><img src="https://cdn-images-1.medium.com/max/1000/1*gMu8qJtr2NeEuuGzvsfcnw.png" alt="Decentralize!"></p>
+<p><img src="/cc0/decentralize-flag-path.svg" alt="Decentralize!"></p>
 
 <p>Blockchains are going to rule the world, providing a mechanism for scaling
 social and economic cooperation to an unprecedented level — a truly global
