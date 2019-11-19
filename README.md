@@ -52,7 +52,7 @@ Shop: Coming Soon
 <div id="lwp">
 <h3>Linzhi Working Papers</h3>
 
-LWP18:&nbsp; History of Bitcoin Mining Hardware (<a href="/docs/LWP18-History-of-Bitcoin-Mining-Hardware.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/history-of-bitcoin-mining-hardware-60be773e5f5d">Medium</a>)<br/>
+LWP18:&nbsp; History of Bitcoin Mining Hardware. (<a href="/docs/LWP18-History-of-Bitcoin-Mining-Hardware.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/history-of-bitcoin-mining-hardware-60be773e5f5d">Medium</a>)<br/>
 LWP17:&nbsp; What Is Memory-Hard? (<a href="https://linzhi.io/docs/LWP17-What-Is-Memory-Hard.pdf">PDF</a>, <a href="https://medium.com/@Linzhi/what-is-memory-hard-45a363b59dfe">Medium</a>)<br/>
 LWP16:&nbsp; Linzhi E1400 Ethash ASIC - Architecture Overview. (2019 Conference) (<a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>, <a href="https://www.youtube.com/watch?v=_enGUG_Jbi4">Video</a>, <a href="https://medium.com/@Linzhi/linzhi-e1400-architecture-overview-6fed5a19ef70">Medium</a>)<br/>
 
