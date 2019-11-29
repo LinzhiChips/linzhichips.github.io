@@ -25,16 +25,11 @@ Shop: Coming Soon
   <a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>,
   <a href="https://www.youtube.com/watch?v=_enGUG_Jbi4">Video</a>
 </li>
-<br/>
-<li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
-  <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
-  (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
-</li>
 </ul>
 
 <h3>Coming Up</h3>
 <ul>
-<li><b>2019-November: Linzhi E1400 Chip Bringup</b><br/>
+<li><b>2019-December: Linzhi E1400 Chip Bringup</b><br/>
   Follow in our Telegram <a href="https://t.me/LinzhiCorp">LinzhiCorp</a>
 </li>
 </ul>
@@ -77,6 +72,11 @@ LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf
 <p>
 <h3>Old News</h3>
 <ul>
+<li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
+  <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
+  (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
+</li>
+<br/>
 <li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
   Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
   Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
