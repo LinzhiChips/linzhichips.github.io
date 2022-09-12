@@ -15,7 +15,6 @@ We are a self-funded startup with about 10 people, focusing on crypto ASICs.
 <a href="https://medium.com/@Linzhi">Medium</a>,
 <a href="https://www.youtube.com/channel/UCuJXov1dVLwKeCyjXj4F9qA">Youtube</a>,
 Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
-Shop: Coming Soon
 
 <h3>News</h3>
 <ul>
