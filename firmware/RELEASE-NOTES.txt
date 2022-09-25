@@ -83,7 +83,7 @@ fw-test-20220924-1608.tar
 	  and cycle between these duplicate entries, thus never selecting a
 	  non-failing entry. The mining daemon now ignores duplicate entries.
 
-	Known bug:
+	Known bug (may have existed for a while):
 
 	- When powering down a slot with any of the switches in Power > On/Off,
 	  killing the mining daemon (prior to cutting power) may fail. In this
