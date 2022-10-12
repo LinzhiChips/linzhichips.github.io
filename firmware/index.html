@@ -1,3 +1,58 @@
+<a href="https://linzhi.io/firmware/fw-test-20221012-0128.tar">https://linzhi.io/firmware/fw-test-20221012-0128.tar</a><br>
+<a href="https://linzhi.io/firmware/fw-test-20221012-0128-full.tar">https://linzhi.io/firmware/fw-test-20221012-0128-full.tar</a><p>
+<pre>
+
+	Dual-mining:
+
+	- Experimental support for ETC+ZIL dual-mining. For details, see
+	  <a href="https://github.com/LinzhiChips/doc/blob/master/guide-zil.txt">https://github.com/LinzhiChips/doc/blob/master/guide-zil.txt</a>
+
+	Pools:
+
+	- 2Miners.com no longer supports Expanse. Added a template for
+	  ExpansePool instead.
+
+	Command-line tools:
+
+	- "rr" to list reports, show files in them, and print their content.
+
+	Problem reporting:
+
+	- Reports now also include the console log.
+
+	- In Power > Dump, the first line (with the date) is now also shown if
+	  using the "Status" filter.
+
+	Communication with pool:
+
+	- If using the EtherProxy protocol (stratum0), specifying a password
+	  had no effect.
+
+	Bug fixes:
+
+	- SUB_EXTRANONCE was ignored. This bug was introduced in
+	  fw-test-20220801-1821.
+
+	- "Harmless" CML errors were not ignored if any board had IGNORE set to
+	  "ignore" or "ban".
+
+	- If a mining daemon was in the process of loading a DAG, and then was
+	  stopped (e.g., by powering off a slot), then the board state remained
+	  at the "loading" value, and caused the DAG daemon to hold, possibly
+	  indefinitely.
+
+	  The DAG daemon now listens to the mining daemon's "last will" topic,
+	  and only considers information from slots with an active mining
+	  daemon.
+
+	- A miner could fail to reboot if some resources were "stuck" in the
+	  kernel. In this case, the Web UI would refresh continuously,
+	  indicating "Rebooting".
+
+	  We now force a hardware reboot without waiting for "stuck" resources
+	  if the "clean" reboot attempt was unsuccessful.
+
+</pre>
 <a href="https://linzhi.io/firmware/fw-test-20220924-1608.tar">https://linzhi.io/firmware/fw-test-20220924-1608.tar</a><br>
 <a href="https://linzhi.io/firmware/fw-test-20220924-1608-full.tar">https://linzhi.io/firmware/fw-test-20220924-1608-full.tar</a><p>
 <pre>
