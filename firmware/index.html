@@ -1,3 +1,77 @@
+<a href="https://linzhi.io/firmware/fw-test-20221129-1327.tar">https://linzhi.io/firmware/fw-test-20221129-1327.tar</a><br>
+<a href="https://linzhi.io/firmware/fw-test-20221129-1327-full.tar">https://linzhi.io/firmware/fw-test-20221129-1327-full.tar</a><p>
+<pre>
+
+	Pools:
+
+	- Added template for UBQ+ZIL mining on Crazypool.
+
+	- The DAG daemon supports DAGs as small as epoch 8 (e.g., for POM,
+	  Proof of Memes.)
+
+	- Added templates for POM-only and POM+ZIL, both on Crazypool.
+
+	- In pool templates, unified the Crazypool regions.
+
+	Configuration:
+
+	- If, for configuration changes to become effective, daemons need to be
+	  restarted, or the entire system rebooted, the Configuration page now
+	  shows an indication (red circle).
+
+	- Pending configuration changes are indicated in the crew as "CONFIG".
+
+	- The configuration daemon (configd) supports a number of new MQTT
+	  topics for automated updates. (/config/bulk, /config/bulk-set,
+	  /config/accept, /config/restart-pending, /config/restart-perform)
+
+	Cleanup:
+
+	- Don't run the obsolete isl68127 daemon anymore.
+
+	Hardware support:
+
+	- Preliminary support for Dragon (E1500).
+
+	Bug fixes:
+
+	- In the crew daemon, the counter for non-zero page wrapped to zero.
+	  This made crew update cycles 11% longer than necessary.
+
+	- The configuration daemon (configd) did not reject newlines in the
+	  values of some variables, e.g., BANNER.
+
+	- When deleting a multiple-choice configuration variable, e.g., CREW,
+	  the Web UI may have left all choices unselected, instead of selecting
+	  the default choice.
+
+	- If the DAG daemon was given no indication what to do, it would
+	  busy-loop;
+
+	- The coordination daemon did not set /fan/profile if using defaults.
+
+	- The fan profile on Temperature > Control was not drawn when receiving
+	  new settings.
+
+	- Fan profiles outside 20-100 C were not clipped.
+
+	- If the destination currently used by the mining daemon was removed or
+	  disabled, mined would continue mining there, until the connection had
+	  to be reset, a change was explicitly commanded (e.g., by moving the
+	  arrow on Configuration > Pool), or mined was restarted. Now mined
+	  automatically switches to the next destination (if there is any)
+	  after a timeout of 30 seconds.
+
+	- If disabling and then re-enabling a destination, mined would still
+	  consider it to be disabled. It would (try to) continue using that
+	  destination, but it would lose the ability to fail over to a
+	  different destination.
+
+	- The crew daemon could try to overflow outbound crew messages, causing
+	  an assertion violation (in unicast mode, which we normally don't
+	  use.)
+
+</pre>
 <a href="https://linzhi.io/firmware/fw-test-20221012-0128.tar">https://linzhi.io/firmware/fw-test-20221012-0128.tar</a><br>
 <a href="https://linzhi.io/firmware/fw-test-20221012-0128-full.tar">https://linzhi.io/firmware/fw-test-20221012-0128-full.tar</a><p>
 <pre>
