@@ -1,3 +1,37 @@
+fw-rd-20230306-0558.tar
+
+	Crew:
+
+	- The number of bad (disabled or misreporting) temperature channels is
+	  now shared with the crew (Bad Tchan). If any channel pairs (both
+	  channels of a chip) have failed, the entry in Crew > Miners is
+	  highlighted.
+
+	- To make non-zero entries easier to spot, we show dashes (-) instead
+	  of zeroes in Bad channels, I2C reset, Bad Tchan, and Board reset.
+
+	Bug fixes:
+
+	- The ZIL wallet was missing in the ETC+ZIL, POM+ZIL, and UBQ+ZIL pool
+	  templates for Crazypool.
+
+	- In System > Daemons, the log of mined0 and mined1 showed shell
+	  commands (of the launch-mined script), but the log of mined did not.
+	  Now shell commands are shown in all modes.
+
+	- The DAG daemon (dagd) unnecessarily complained when the mining daemon
+	  (mined) indicated it was not mining (and otherwise ignored these
+	  messages, as it should). It also had a small memory leak.
+
+	- If SEPARATE_MINED was not set, dagd complained when receiving
+	  messages with the topic /mine/pool/state, instead of just ignoring
+	  them.
+
+	- If the ops switch was off, the crew daemon (crewd) set the "ops" flag
+	  (0x0800), even if the ops switch was not enabled.
+
+	- coord and mined did not report the exit status of shell commands.
+
 fw-test-20221129-1327.tar
 
 	Pools:
