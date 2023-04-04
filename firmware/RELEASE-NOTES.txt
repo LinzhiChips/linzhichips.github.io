@@ -1,3 +1,12 @@
+fw-test-20230404-0704
+
+        Base system upgrade:
+
+        - Upgrade buildroot from 2021.02 to 2022.02.11 (released 2023-03-19)
+
+        - Upgrade kernel from 5.10.89 to 5.15.105 (released 2023-03-30). 5.10
+          is still maintained, but the newer buildroot needs at least 5.15.
+
 fw-rd-20230306-0558.tar
 
 	Crew:
