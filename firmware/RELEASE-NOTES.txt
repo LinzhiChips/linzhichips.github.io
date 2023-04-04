@@ -1,4 +1,4 @@
-fw-test-20230404-0704
+fw-test-20230404-0704.tar
 
         Base system upgrade:
 
