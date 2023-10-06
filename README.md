@@ -16,16 +16,6 @@ We are a self-funded startup with about 10 people, focusing on crypto ASICs.
 <a href="https://www.youtube.com/channel/UCuJXov1dVLwKeCyjXj4F9qA">Youtube</a>,
 Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 
-<h3>News</h3>
-<ul>
-<li><b>2019-Oct-4: Linzhi E1400 Architecture Overview</b><br/>
-  Venue: 2019 Ethereum Classic Summit - October 3-4, 2019 - Vancouver, Canada<br/>
-  <a href="https://etcsummit.com/">Event</a>,
-  <a href="https://linzhi.io/docs/LWP16-E1400-Architecture-Overview.pdf">PDF</a>,
-  <a href="https://www.youtube.com/watch?v=_enGUG_Jbi4">Video</a>
-</li>
-</ul>
-
 <div id="lwp">
 <h3>Linzhi Working Papers</h3>
 
@@ -52,8 +42,12 @@ LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf
 </div>
 
 <p>
-<h3>Old News</h3>
+<h3>News</h3>
 <ul>
+<li><b>2020-Dec-21: Linzhi Begins Rollout of Long-Awaited Ethereum Miner 'Phoenix'</b><br/>
+  <a href="https://www.coindesk.com/tech/2020/12/21/linzhi-begins-rollout-of-long-awaited-ethereum-miner-phoenix/">Coindesk</a>
+</li>
+<br/>
 <li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
   <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
   (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
