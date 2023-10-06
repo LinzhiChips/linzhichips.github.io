@@ -4,10 +4,12 @@
 <br/>
 
 <h3>About Linzhi</h3>
-Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.<br/>
-We are a self-funded startup with about 10 people, focusing on crypto ASICs.
+Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.
 
-<h3>News</h3>
+<h3>Latest News</h3>
+We are studying new opportunities, feel free to reach out by email to <a href="mailto:hello@linzhi.io">hello@linzhi.io</a>.
+
+<h3>History</h3>
 <ul>
 <li><b>2020-Dec-21: Linzhi Begins Rollout of Long-Awaited Ethereum Miner 'Phoenix'</b><br/>
   <a href="https://www.coindesk.com/tech/2020/12/21/linzhi-begins-rollout-of-long-awaited-ethereum-miner-phoenix/">Coindesk</a>
@@ -37,14 +39,14 @@ We are a self-funded startup with about 10 people, focusing on crypto ASICs.
 </li>
 </ul>
 
-<h3>Contact</h3>
+<h3>Our Channels</h3>
 <a href="https://t.me/LinzhiCorp">Telegram</a>,
 <a href="https://twitter.com/LinzhiCorp">Twitter</a>,
 <a href="https://instagram.com/LinzhiCorp">Instagram</a>,
 <a href="https://github.com/LinzhiChips">Github</a>,
 <a href="https://medium.com/@Linzhi">Medium</a>,
 <a href="https://www.youtube.com/channel/UCuJXov1dVLwKeCyjXj4F9qA">Youtube</a>,
-Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
+Email: <a href="mailto:hello@linzhi.io">hello@linzhi.io</a><br/>
 
 <div id="lwp">
 <h3>Linzhi Working Papers</h3>
