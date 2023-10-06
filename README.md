@@ -7,6 +7,36 @@
 Linzhi Ltd is a privately owned fabless semiconductor company in Shenzhen.<br/>
 We are a self-funded startup with about 10 people, focusing on crypto ASICs.
 
+<h3>News</h3>
+<ul>
+<li><b>2020-Dec-21: Linzhi Begins Rollout of Long-Awaited Ethereum Miner 'Phoenix'</b><br/>
+  <a href="https://www.coindesk.com/tech/2020/12/21/linzhi-begins-rollout-of-long-awaited-ethereum-miner-phoenix/">Coindesk</a>
+</li>
+<br/>
+<li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
+  <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
+  (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
+</li>
+<br/>
+<li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
+  Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
+  Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
+  Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
+  <a href="https://etcsummit.com/2018-etc-summit/">Event</a>,
+  <a href="https://www.coindesk.com/a-new-line-of-powerful-asic-miners-is-coming-to-ethereum">Coindesk</a>,
+  <a href="https://linzhi.io/docs/20180913-ETC-Summit-ASIC-Manufacturer-Perspective.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>
+</li>
+<br/>
+<li><b>2017-Nov-5: The Future of Proof-of-Work</b><br/>
+  Venue: Scaling Bitcoin 2017 “Scaling the Edge” - November 4-5, 2017 - Stanford, USA<br/>
+  <a href="https://stanford2017.scalingbitcoin.org/">Event</a>, 
+  <a href="https://www.coindesk.com/hold-fork-no-2x-everything-else-goes-scaling-bitcoin-event">Coindesk</a>,
+  <a href="https://linzhi.io/docs/20171104-Stanford-Future-of-Proof-of-Work.pdf">PDF</a>,
+  <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
+</li>
+</ul>
+
 <h3>Contact</h3>
 <a href="https://t.me/LinzhiCorp">Telegram</a>,
 <a href="https://twitter.com/LinzhiCorp">Twitter</a>,
@@ -42,35 +72,4 @@ LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf
 </div>
 
 <p>
-<h3>News</h3>
-<ul>
-<li><b>2020-Dec-21: Linzhi Begins Rollout of Long-Awaited Ethereum Miner 'Phoenix'</b><br/>
-  <a href="https://www.coindesk.com/tech/2020/12/21/linzhi-begins-rollout-of-long-awaited-ethereum-miner-phoenix/">Coindesk</a>
-</li>
-<br/>
-<li><b>2019-Sep-11: Linzhi E1400 Ethash ASIC Tapeout</b><br/>
-  <a href="https://medium.com/@Linzhi/linzhi-e1400-tapeout-1688df3bb5d">Taped out 1400 MH Ethash ASIC</a>
-  (<a href="https://www.coindesk.com/powerful-new-ethereum-miner-reaches-final-stage-before-mass-production">Coindesk</a>)
-</li>
-<br/>
-<li><b>2018-Sep-13: Ethash Miner Announcement</b><br/>
-  Venue: 2018 Ethereum Classic Summit - September 12-13, 2018 - Seoul, Korea<br/>
-  Specs: Ethash, 1400 MH/s, 1000 Watts, price commitment 4-6 months ROI.<br/>
-  Schedule: 12/2018 TapeOut, 04/2019 Samples, 06/2019 Mass Production.<br/>
-  <a href="https://etcsummit.com/2018-etc-summit/">Event</a>,
-  <a href="https://www.coindesk.com/a-new-line-of-powerful-asic-miners-is-coming-to-ethereum">Coindesk</a>,
-  <a href="https://linzhi.io/docs/20180913-ETC-Summit-ASIC-Manufacturer-Perspective.pdf">PDF</a>,
-  <a href="https://www.youtube.com/watch?v=LMofyroBfio">Video</a>
-</li>
-<br/>
-<li><b>2017-Nov-5: The Future of Proof-of-Work</b><br/>
-  Venue: Scaling Bitcoin 2017 “Scaling the Edge” - November 4-5, 2017 - Stanford, USA<br/>
-  <a href="https://stanford2017.scalingbitcoin.org/">Event</a>, 
-  <a href="https://www.coindesk.com/hold-fork-no-2x-everything-else-goes-scaling-bitcoin-event">Coindesk</a>,
-  <a href="https://linzhi.io/docs/20171104-Stanford-Future-of-Proof-of-Work.pdf">PDF</a>,
-  <a href="https://www.youtube.com/watch?v=7xKQ3SMnM7Q">Video</a>
-</li>
-</ul>
-
-<center><img src="https://linzhi.io/cc0/201909-lunchtime.jpg" style="width:60%;"></center>
-Bye.
+The best is yet to come.
