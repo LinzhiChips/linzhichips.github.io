@@ -73,5 +73,7 @@ LWP2:&nbsp; Call to Ethereum Developers for ASIC Guidelines. (<a href="https://l
 LWP1:&nbsp; About Linzhi. (<a href="https://linzhi.io/docs/LWP1-About-Linzhi.pdf">PDF</a>)<br/>
 </div>
 
-<center><img src="https://github.com/LinzhiChips/linzhichips.github.io/blob/master/cc0/201903-money-is-the-root-of-all-evil-today.jpg" style="width:60%;" /></center>
-The best is yet to come.
+<br/>
+<center><img src="https://linzhi.io/cc0/201903-money-is-the-root-of-all-evil-today.jpg" style="width:60%;" /></center>
+<br/>
+See you down the road.
