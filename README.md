@@ -26,23 +26,6 @@ Email: <a href="mailto:sales@linzhi.io">sales@linzhi.io</a><br/>
 </li>
 </ul>
 
-<h3>Coming Up</h3>
-<ul>
-<li><b>2019-December: Linzhi E1400 Chip Bringup</b><br/>
-  Follow in our Telegram <a href="https://t.me/LinzhiCorp">LinzhiCorp</a>
-</li>
-</ul>
-
-<div id="transparency">
-<h3>Linzhi E1400 Transparency Updates</h3>
-<ul>
- <li>2019-Sep-11: Ordered 37 wafers.</li>
-</ul>
-</div>
-
-<h3>ETC Network Stability</h3>
-<a href="https://etcstats.net/">etcstats.net</a>, <a href="https://etcstatus.live/">Mining Alert Level @etcstatus.live</a>
-
 <div id="lwp">
 <h3>Linzhi Working Papers</h3>
 
